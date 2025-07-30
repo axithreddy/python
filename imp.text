@@ -1,0 +1,22 @@
+max(arr)
+min(arr)
+sum(arr)
+
+#list comprehension
+return [x for x in arr if x == max_value] #if you want to gett all max values of an array(duplicates)
+
+
+if all (j % i == 0 for j in b):
+
+
+class Solution:
+    def isSubsequence(self, s: str, t: str) -> bool:
+Means:
+	•	class Solution: ➝ You’re defining a class called Solution.
+	•	def isSubsequence(...) ➝ This is a method (a function inside a class).
+	•	self ➝ refers to the instance (object) of the class.
+	•	s: str, t: str ➝ means both s and t are expected to be strings.
+	•	-> bool ➝ This method will return a Boolean (True or False).
+
+
+# two pointers approach: when numbers are sorted
