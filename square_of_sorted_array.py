@@ -4,14 +4,12 @@ right = len(nums)-1
 output = [0] * len(nums)
 r_output = len(output)-1
 while left <= right:
-    rs = nums[right] * nums[right]
-    ls = nums[left] * nums[left]
-    if rs >= ls:
-        output[r_output] = rs
+    if abs(nums[right]) > abs(nums[left]):
+        output[r_output] = nums[right] * nums[right]
         right -= 1
         r_output -= 1
-    elif rs < ls:
-        output[r_output] = ls
+    else:
+        output[r_output] = nums[left] * nums[left]
         left += 1
         r_output -= 1
 print(output)
