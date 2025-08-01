@@ -19,4 +19,7 @@ Means:
 	•	-> bool ➝ This method will return a Boolean (True or False).
 
 
-# two pointers approach: when numbers are sorted
+# two pointers approach: Two pointers is an extremely common technique used to solve array and string problems. It involves having two integer variables that both move along an iterable. In this article, we are focusing on arrays and strings. This means we will have two integers, usually named something like i and j, or left and right which each represent an index of the array or string.
+Start the pointers at the edges of the input. Move them towards each other until they meet.
+example codings: 2_pointer.py, square_of_sorted_array.py
+
